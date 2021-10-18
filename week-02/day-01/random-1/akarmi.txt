@@ -1,0 +1,4 @@
+valami tartalom a file-ba
+adok meg hozza
+adok meg hozza
+es ujbol meg lett valtoztatva a fajlszerkezet, es most ujra addolom, illetve visszavonom
