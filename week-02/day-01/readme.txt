@@ -1,0 +1,1 @@
+A mai nap Zoli tartott nekunk eloadast a parancssorokrol, amely kituno es nagyon tanulsagos volt. Ezt a filet a touch parancsal hoztam letre, es most az echoval iranyitom tovabb a szoveges reszt a fajlba
