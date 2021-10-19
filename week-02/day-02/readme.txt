@@ -1,0 +1,1 @@
+A mai nap Kriss tartott eloadast a git rol, es egy kicsi javabol. Teljesen elvezheto eloadas volt, sokminden tisztazodott. A gites feladatokat mar tegnap megcsinaltam es feltoltottem, ma jegyzetet keszitek a parancsokrol, kis sugo kkesobbre.
