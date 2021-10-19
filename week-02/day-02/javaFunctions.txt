@@ -1,0 +1,2 @@
+ public static void main(String[] args) {} -roviditve psvm - ez a fo fuggveny a javaban, ezzel kezded a kodot
+ System.out.println() - kiirja a konzolra ami a zarojelek kozott van 
