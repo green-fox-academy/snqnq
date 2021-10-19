@@ -1,0 +1,9 @@
+git init - The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository.
+clone -  git clone is a Git command line utility which is used to target an existing repository and create a clone, or copy of the target repository.
+status - The git status command is used to display the state of the repository and staging area
+diff - The git diff command displays the differences between files in two commits or between a commit and your current repository.
+add - The git add command adds a change in the working directory to the staging area.
+commit - The git commit command captures a snapshot of the project's currently staged changes
+push - The git push command is used to transfer or push the commit, which is made on a local branch in your computer to a remote repository like GitHub | use git push '
+fetch - In review, git fetch is a primary command used to download contents from a remote repository.
+pull - The git pull command is used to fetch and download content from a remote repository and immediately update the local repository to match that content.
