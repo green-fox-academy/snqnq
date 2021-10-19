@@ -1,0 +1,16 @@
+cd - change directory - use : cd .. / cd [path] / cd \ / cd ~
+pwd - print work directory - give you the absolute path for your working directory
+ls - list - give you a list of your current directory - -l -A -h -d 
+touch - create a new file - touch file.ext 
+mkdir - make directory - creates a new directory in your current directory
+cp - copy - copies a file, or copies and renames a file - cp [file.name] [file.path] 
+mv - move - similar like copy, but instead of copying, it moves a file, deletes the original - also good for renaming - mv [file.name] [file.path]  
+rm - remove - deletes a file - rm [file.name] - -r recursive - deletes everything including directories 
+``>és>>` és `|` > It will put the output of selected file to another file - eg. : ls -la > list.txt 
+		>> similar to the 1 arrow, but instead of overwriting the information, it appends and adds it to the file in a new row
+		|   ls -l | sed -e "s/[aeio]/u/g"   Here, the following happens: first the command ls -l is executed, and it's output, instead of being printed, is sent (piped) to the sed program, which in turn, prints what it has to.
+echo - The echo command is used to display a line of text that is passed in as an argument.
+sort - SORT command is used to sort a file, arranging the records in a particular order. By default, the sort command sorts file assuming the contents are ASCII.
+uniq - Eliminates the duplicated rows in a file, and only display one of them
+grep - The grep command searches the given files for lines containing a match to a given pattern list
+cat - cat is one of the most frequently used commands in Unix operating systems. cat is used to read a file sequentially and print it to the standard output.
