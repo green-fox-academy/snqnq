@@ -4,9 +4,9 @@ public class bmi {
                 double massInKg = 81.2;
                 double heightInM = 1.78;
 
-                double bmi = massInKg * (heightInM * heightInM);
+                double bmi = massInKg / (heightInM * heightInM);
 
-                System.out.println(bmi / 10 + " kg/m2" + " overweight");
+                System.out.println(bmi+ " kg/m2" + " overweight");
 
 
 
@@ -16,3 +16,4 @@ public class bmi {
 
     }
 }
+
