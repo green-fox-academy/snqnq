@@ -24,7 +24,7 @@ public class VariableMutation {
 
                 int e = 8;
                 // Emeld köbre az e változó értékét
-                e *= 8;
+                e = e * e * e;
                 System.out.println(e);
 
                 int f1 = 123;
@@ -46,6 +46,6 @@ public class VariableMutation {
                 System.out.println(i1 > Math.pow(i2,2) && i1 < Math.pow(i2, 3));
                 int j = 1521;
                 // Írasd ki, hogy j osztható-e 3-mal vagy 5-tel (boolean)
-                System.out.println(j%2 == 0 || j%5 == 0);
+                System.out.println(j % 3 == 0 || j % 5 == 0);
     }
 }
