@@ -11,7 +11,7 @@ public class CodingHours {
         double maxHours = avgHours * term;
         double percent = total / maxHours;
         double finalPercent = percent * 100;
-
+        array.unsort
 
         System.out.println(total);
         System.out.println(finalPercent + "%");
