@@ -1,0 +1,3 @@
+keresd ki a copy metodusokat a tombokhoz, shallow copy, deep copy, clone 
+nezd at a reversedOrdert, illetve az array metodusokat
+static non-static fuggvenyek
