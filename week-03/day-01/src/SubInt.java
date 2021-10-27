@@ -1,14 +1,7 @@
 import java.util.Arrays;
 
-public class SubInt {
+public class SubInt{
     public static void main(String[] args) {
-
-
-        int a = 1;
-        int[] b = {1, 11, 34, 52, 61};
-
-        System.out.println(subInt(a, b));
-
 
         // - Készíts egy függvényt ami bemeneti paraméterként egy számot és egy integer array-t vár.
 
@@ -25,16 +18,65 @@ public class SubInt {
         // Vagy használhatjuk a végigiterálást is.
     }
 
-    public static int[] subInt(int a, int[] b) {
-        for (int i = 0; i < b.length; i++) {
-            if (a == b[i]) {
-                System.out.println(b[i]);
-            } else {
-        final int[] ints = new int[]{};
-        return ints;
-
+    public static int[] subInt(int a, int[] array) {
+        int arrLength = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (matchNr(a, array[i])) {
+                arrLength += 1;
             }
         }
-        return b;
+        int[] myArr = new int[arrLength];
+        int index = 0;
+        for (int i = 0; i <array.length ; i++) {
+            if(matchNr(a,array[i])){
+                myArr[index] = i;
+                index++;
+            }
+        }
+        return myArr;
+    }
+
+    public static boolean matchNr(int i, int j){
+        boolean result=false;
+        while(j>=10){
+            if(j%10==i){
+                result=true;
+            }
+            j/=10;
+        }
+        if(i==j) result=true;
+        return result;
     }
 }
+/*
+    public static int[] subInt(int num, int[] array){
+        int arrayLength=0;
+        for(int i=0; i<array.length; i++){
+            if(containsNr(num,array[i])){
+                arrayLength+=1;
+            }
+        }
+        int[] myArr=new int[arrayLength];
+        int index=0;
+        for(int i=0; i<array.length; i++){
+            if(containsNr(num,array[i])){
+                myArr[index]=i;
+                index++;
+            }
+        }
+        return myArr;
+    }
+
+    //function which checks if a nr contains another number
+    public static boolean containsNr(int i, int j){
+        boolean result=false;
+        while(j>=10){
+            if(j%10==i){
+                result=true;
+            }
+            j/=10;
+        }
+        if(i==j) result=true;
+        return result;
+    }
+ */

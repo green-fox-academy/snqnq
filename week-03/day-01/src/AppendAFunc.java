@@ -6,7 +6,8 @@ public class AppendAFunc {
 
     }
 
-    private static String appendAFunc(String name) {
+    public static String appendAFunc(java.lang.String name) {
+
         return name + "a";
     }
 
