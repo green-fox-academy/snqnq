@@ -48,35 +48,3 @@ public class SubInt{
         return result;
     }
 }
-/*
-    public static int[] subInt(int num, int[] array){
-        int arrayLength=0;
-        for(int i=0; i<array.length; i++){
-            if(containsNr(num,array[i])){
-                arrayLength+=1;
-            }
-        }
-        int[] myArr=new int[arrayLength];
-        int index=0;
-        for(int i=0; i<array.length; i++){
-            if(containsNr(num,array[i])){
-                myArr[index]=i;
-                index++;
-            }
-        }
-        return myArr;
-    }
-
-    //function which checks if a nr contains another number
-    public static boolean containsNr(int i, int j){
-        boolean result=false;
-        while(j>=10){
-            if(j%10==i){
-                result=true;
-            }
-            j/=10;
-        }
-        if(i==j) result=true;
-        return result;
-    }
- */
