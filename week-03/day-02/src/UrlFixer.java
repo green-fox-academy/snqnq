@@ -2,8 +2,8 @@ public class UrlFixer {
         public static void main(String... args) {
             String url = "https//www.reddit.com/r/nevertellmethebots";
 
-            String fixedUrl = url.replace("nevertellmethebots", "nevertellmetheodds" );
-            System.out.println(fixedUrl.concat(".html"));
+            url = url.replace("nevertellmethebots", "nevertellmetheodds" );
+            url = url.replace("htts//", "https://")
             // Véletlenül rossz URL-t kaptam egy vicces subreddithez.
             // Valószínűleg ez "odds" és nem "bots" akart lenni.
             // Továbbá az URL-ből hiányzik egy fontos rész, derítsd ki
