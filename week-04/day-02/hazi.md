@@ -31,7 +31,7 @@ Főleg az ellátási útvonal, a karbantartás, a hűtés, és a leálláskor ki
 
 * Keress Tier 3 és Tier 4 géptermeket Budapesten!
 
-Tier 4 es a DC10 Elhelyezkedés: 1108 Budapest, Kozma utca 2. Invitech
+Tier 3 as a DC10 Elhelyezkedés: 1108 Budapest, Kozma utca 2. Invitech // Barátomat megkérdeztem aki szakmában dolgozik, és felvilágosított hogy nincs TIER 4 es magyarországon!
 Tier 3as a DC14 Elhelyezkedés: 1143 Budapest, Ilka utca 31. Invitech
 
 * Lehet-e gépteremben vízzel oltani? Indokold!

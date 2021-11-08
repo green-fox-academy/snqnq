@@ -6,7 +6,7 @@ Gepterem tiering:
 
 *                                                           Tier1       Tier2        Tier 3        Tier 4
 
-*  Aktív kiszolgáló egyszégek az ICT eszközök ellátására | N         |  N+1       | N+1     | bármely elem hibája után is ‚N‘ |  
+*     Aktív kiszolgáló egyszégek az ICT eszközök ellátására | N         |  N+1       | N+1     | bármely elem hibája után is ‚N‘ |  
 
 *                                       Ellátási útvonal | 1         | 1          | 1 aktiv,    |    2 egyidejűleg aktív | 
                                                                                   |  1 tartalek | 
