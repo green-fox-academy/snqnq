@@ -1,0 +1,1 @@
+ cat /proc/cpuinfo | grep bogomips | uniq

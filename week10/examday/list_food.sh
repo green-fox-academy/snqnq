@@ -1,0 +1,1 @@
+sort -k 2 -u hungry.txt | head -9 | tail -1
